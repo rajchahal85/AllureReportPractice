@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="My Allure Suite" verbose="1" >
+    <test name="Allure Tests" >
+        <classes>
+            <class name="allure.examples.MyFirstClass" />
+            <class name="allure.examples.MyCalculatorTest" />
+        </classes>
+    </test>
+</suite>
